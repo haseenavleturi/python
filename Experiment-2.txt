@@ -1,0 +1,116 @@
+1)Write a python program to accept a year and verify the given year is leaf year or not
+-------------------------------------------------------------------------------------------
+Program:-
+==========
+year=int(input("enter any year:"))
+
+if year%4==0:
+
+    print("The yaer is Leaf year")
+
+else:
+ 
+   print("The given year is not a Leaf year")
+
+
+Sample input-output:-
+======================
+enter any year:2004
+
+The yaer is Leaf year
+
+2)Write a python program to accept a number and verify the givennumber is in between 1to100
+--------------------------------------------------------------------------------------------
+Program:-
+==========
+num=int(input("enter any number:"))
+
+if num>=1 and num<=100:
+
+    print("The given number is within the range")
+
+else:
+ 
+   print("The given number is not within the range ")
+    
+Sample input-output:-
+======================
+enter any number:20
+
+The given number is within the range
+                     (or)
+enter any number:0
+
+The given number is not within the range
+
+3)Write a python program to accept two numbers and find biggest among two numbers
+-----------------------------------------------------------------------------------
+Program:-
+==========
+num1=int(input("enter first  number:"))
+
+num2=int(input("enter second number:"))
+
+if num1>=num2:
+
+    print("The given number is bigger number")
+
+else:
+  
+  print("The given number is smaller number")
+ 
+
+
+Sample input-output:-
+======================
+enter first  number:10
+
+enter second number:20
+
+The given number is smaller number
+4)Write a python program to accept three numbers and find biggest among three numbers
+-------------------------------------------------------------------------------------
+Program:-
+==========
+num1=int(input("enter first  number:"))
+
+num2=int(input("enter second number:"))
+
+num3=int(input("enter third number:"))
+
+if num1>num2 and num1>num3:
+  
+  print("num1 is biggest number")
+
+elif num2>num1 and num2>num3:
+  
+  print("num2 is biggest number")
+
+else:
+  
+  print(" num3 is biggest number")
+ 
+   
+Sample input-output :-
+======================
+enter first  number:20
+
+enter second number:40
+
+enter third number:10
+
+num2 is biggest number
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

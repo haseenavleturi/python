@@ -1,0 +1,407 @@
+1.Arithmetic operators:-
+-----------------------
+1.Write a python program to perform Arthmetic operators without input function
+program:-
+--------
+
+a=10
+
+b=20
+
+print(a+b)
+
+print(a-b)
+
+print(a*b)
+
+print(a/b)
+
+print(a%b)
+
+print(a//b)
+
+print(a**b)
+
+
+Sample input-output:-
+---------------
+
+30
+
+-10
+
+200
+
+0.5
+
+10
+0
+
+100000000000000000000
+
+2)Comparison operators:-
+-------------------------
+2.Write a python program to perform arthmetic operators using input function
+-----------------------------------------------------------------------------
+
+program:-
+==========
+
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+print(a+b)
+
+print(a-b)
+
+print(a*b)
+
+print(a/b)
+
+print(a%b)
+
+print(a//b)
+
+print(a**b)
+
+Sample input-output:-
+======================
+
+enter first number:25
+
+enter second number:30
+
+55
+-5
+750
+
+0.8333333333333334
+
+25
+
+0
+
+867361737988403547205962240695953369140625
+
+
+
+3.Write a python program to perform comparison operator without using input function
+---------------------------------------------------------------------------------------
+
+program:-
+=========
+a=20
+b=50
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+
+Sample input-output:-
+=====================
+True
+False
+True
+False
+          (or)
+program:-
+==========
+a="mommy"
+b="daddy"
+print(a<b)
+
+print(a>b)
+
+print(a<=b)
+
+print(a>=b)
+
+Samle input-output:-
+=====================
+False
+
+True
+
+False
+
+True
+
+           (or)
+program:-
+=========
+a="mommy"
+
+b="mommy"
+
+print(a<b)
+
+print(a>b)
+
+print(a<=b)
+
+print(a>=b)
+
+Sample input-output:-
+======================
+False
+
+False
+
+True
+
+True
+4.write a python program to perform comparison operator using input function
+------------------------------------------------------------------------------
+
+1)program:-
+============
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+temp=a
+
+a=b
+
+b=temp
+
+print("After Swapping of two numbers are:")
+
+print("---------------------------------")
+
+print("first value is:",a)
+
+print("second value is:",b)
+
+
+
+Sample inout-output:-
+=====================
+enter first number:30
+
+enter second number:20
+
+After Swapping of two numbers are:
+
+---------------------------------
+---
+first value is: 20
+
+second value is: 30
+
+
+Method-2:-
+----------
+2)program:-
+============
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+a=a+b
+
+b=a-b
+
+a=a-b
+
+print("After Swapping of two numbers are:")
+
+print("---------------------------------")
+
+print("first value is:",a)
+
+print("second value is:",b)
+
+
+
+Sample input-output:-
+=====================
+enter first number:20
+
+enter second number:30
+
+After Swapping of two numbers are:
+
+---------------------------------
+
+first value is: 30
+
+second value is: 20
+
+
+
+
+Method-3:-
+----------
+3)program:-
+==========
+
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+a=a*b
+
+b=a//b
+
+a=a//b
+
+print("After Swapping of two numbers are:")
+
+print("---------------------------------")
+
+print("first value is:",a)
+
+print("second value is:",b)
+
+
+Sample input-output:-
+======================
+nter first number:10
+
+enter second number:20
+
+After Swapping of two numbers are:
+
+---------------------------------
+
+first value is: 20
+
+second value is: 10
+
+
+Method-4:-
+-----------
+4)program:-
+===========
+a=int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+a,b=b,a
+
+print("After Swapping of two numbers are:")
+
+print("---------------------------------")
+
+print("first value is:",a)
+
+print("second value is:",b)
+
+Sample input-output:-
+======================
+enter first number:50
+
+enter second number:40
+
+After Swapping of two numbers are:
+
+---------------------------------
+
+first value is: 40
+
+second value is: 50
+
+5)write a python program to find area of a triangle
+-------------------------------------------------------
+program:-
+==========
+s1=int(input("enter first number:"))
+
+s2=int(input("enter second number:"))
+
+s3=int(input("enter third number:"))
+
+s=(s1+s2+s3)/2
+
+area=(s*(s-s1)*(s-s2)*(s-s3))**0.5
+print(s)
+print("area of the triangle is:",area)
+Sample input-output:-
+======================
+enter first number:3
+enter second number:5
+enter third number:7
+area of the triangle is:6.49519052838329
+            (or)
+
+program:-
+=========
+base=eval(input("enter base:"))
+
+height=eval(input("enter height:"))
+
+print("area of triangle:",0.5*base*height)
+
+
+Sample input-output:-
+======================
+enter base:10
+
+enter height:7.8
+
+area of triangle: 39.0 
+
+5)write a program to perform the area and perimeter of rectangle
+-------------------------------------------------------------------
+
+program:-
+========
+
+Area:-
+------
+L=eval(input("enter length of a rectangle:"))
+
+b=eval(input("enter breadth of a rectangle:"))
+
+Area=L*b
+print("Area of the rectangle is:",Area)
+
+
+Perimeter:-
+-----------
+
+L=eval(input("enter length of a rectangle:"))
+
+b=eval(input("enter breadth of a rectangle:"))
+Perimeter=2*(L+b) 
+print("Perimeter of the rectangle is:",Perimeter)
+
+
+
+Sample input-output:-
+======================
+Area:-
+------
+enter length of a rectaangle:23
+enter breadth of a rectangle:15
+Area  of the rectangle is:345
+
+Perimeter:-
+------------
+enter length of a rectaangle:23
+enter breadth of a rectangle:15
+Perimeter of the rectangle is:76
+
+6)write a python program to find  circmference of circle
+--------------------------------------------------
+program:-
+==========
+pi=3.14
+d=eval(input("enter the diameter of the circle:"))
+r=d/2
+circumference=2*pi*r
+print("circumference of the circle for the given diameter is:",circumference)
+
+
+Sample input-output:-
+======================
+enter the diameter of the circle:10
+
+circumference of the circle for the given diameter is: 31.400000000000002
+
+
+7)write a python program to generate 6-digit OTP number using random module
+8)write a python program to accept a user-name and verify the given user is authorized user or not
+9)Write a python program to accept three numbers and find minimum values
