@@ -101,6 +101,540 @@ enter third number:10
 
 num2 is biggest number
 
+5)Write a python program to accept a number and print respective word
+-----------------------------------------------------------------------
+Program:-
+=========
+num=eval(input("enter a number:"))
+
+if num==1:
+    
+   print("one")
+
+elif num==2:
+   
+    print("two")
+
+elif num==3:
+     
+    print("three")
+
+elif num==4:
+    
+    print("four")
+
+else:
+     
+    print("The number is invalid")
+
+
+Sample input-output:-
+======================
+enter a number:1
+
+one
+
+      (or)
+
+enter a number:5
+
+The number is invalid
+
+
+1)Write a python program to print numbers from 1 to 10 using for loop
+-----------------------------------------------------------------------
+Program:-
+=========
+for x in range(1,11):
+    
+  print(x)
+
+Sample input-output:-
+======================
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+2)Write a python program to print odd numbers from 0to20
+---------------------------------------------------------
+Program:-
+=========
+for x in range(21):
+     
+      if x%2!=0:
+         
+          print(x)
+
+Sample input-output:-
+======================
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17
+
+19
+
+
+
+3)Write a python program to print number from 10 to 1
+------------------------------------------------------
+Program:-
+=========
+for x in range(10,1,-1):
+    
+    print(x)
+Sample input-output:-
+=====================
+10
+
+9
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+
+
+4)write a python program to print numbers from 0to 6 except 3 and 5
+---------------------------------------------------------------------
+Program:-
+=========
+for x in range(7):
+    
+    if x!=3 and x!=5:
+         
+         print(x)
+
+Sample input-output:-
+=====================
+0
+
+1
+
+2
+
+4
+
+6
+
+
+5)Write a python program to accept a list and  print the list elements and also find the sum of list elements using for loop
+-----------------------------------------------------------------------------------------------------------------------------
+Program:-
+=========
+list=input("enter some list elements").split()
+sum=0
+for x in list:
+    x=int(x)
+    sum=sum+x
+print(list)
+print("The sum of the list is:",sum)
+
+Sample input-output:-
+======================
+enter some list elements 1 2 3
+
+['1', '2', '3']
+The sum of the list is: 6
+
+6)write a python program to accept a number and print multiplication of a given number
+---------------------------------------------------------------------------------------
+Program:-
+=========
+n=int(input("enter any number:"))
+
+for x in range(1,11):
+     
+     print(n,"*",x,"=",n*x)
+
+Sample input-output:-
+====================
+enter any number:6
+
+6 * 1 = 6
+
+6 * 2 = 12
+
+6 * 3 = 18
+
+6 * 4 = 24
+
+6 * 5 = 30
+
+6 * 6 = 36
+
+6 * 7 = 42
+
+6 * 8 = 48
+
+6 * 9 = 54
+
+6 * 10 = 60
+
+7)Write a python program to accept a string and print every character with their index number also
+---------------------------------------------------------------------------------------------------
+Program:-
+=========
+Program:-
+=========
+a=int(input("enter a string"))
+
+for i in range(len(a)):
+     
+    print("at index",i,"=",a[i])
+
+Sample input-output:-
+=====================
+enter a string python
+
+at index 0 p is present
+
+at index 1 y is present
+
+at index 2 t is present
+
+at index 3 h is present
+
+at index 4 o is present
+
+at index 5 n is present
+
+8)Write a python program to a find  those numbers are divisible by 7 and multiples of 5 in between 1 to100
+-------------------------------------------------------------------------------------------------------------
+Program:-
+=========
+n=int(input("enter any number:"))
+
+for x in range(1,n+1):
+   
+   if x%7==0 and x%5==0:
+       
+print(x)
+Sample input-output:-
+======================
+enter any number:100
+
+35
+
+70
+
+
+
+9)Write a python program to count even numbers and odd numbers of a given series of numbers using  for loop
+-------------------------------------------------------------------------------------------------------------
+Program:-
+============
+n=input("enter some number:").split()
+
+i=0
+
+j=0
+
+for x in n:
+    
+  x=int(x)
+
+if x%2==0:
+     
+  i=i+1
+
+else:
+     
+  j=j+1
+
+print("Even numbers count is:",i)
+
+print("odd numbers count is:",j)
+
+Sample input-output:-
+======================
+enter some number:10 11 12
+
+Even numbers count is: 1
+
+odd numbers count is: 0
+10)Write a python program to accept two numbers to find sum if first number is smaller than second otherwise to perform its difference using if else
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Program:-
+==========
+n1=int(input("enter first number;"))
+
+n2=int(input("enter second number:"))
+
+if n1<n2:
+    
+    sum=n1+n2
+    
+    print("The sum is:",sum)
+
+else:
+    
+   sub=n1-n2
+  
+   print("The difference is:",sub)
+
+Sample input-output:-
+====================
+enter first number:20
+
+enter second number:30
+
+The sum is: 50
+      (or)
+enter first number:30
+
+enter second number:20
+
+The difference is: 10
+
+11)Write a python program to accept four integer numbers and find among four integer numbers which is smaller one by using simple if statement
+------------------------------------------------------------------------------------------------------------------------------------------------
+Program:-
+=========
+n1=int(input("enter first number:"))
+
+n2=int(input("enter second number:"))
+
+n3=int(input("enter third number:"))
+
+n4=int(input("enter fourth number:"))
+
+s=n1
+
+if n2<s:
+  
+ s=n2
+
+if n3<s:
+
+  s=n3
+
+if n4<s:
+  
+  s=n4
+
+print("The smaller number is:",s)
+             (or)
+print("The smaller number is:",min(n1,n2,n3,n4))
+
+Sample input-output:-
+=====================
+enter first number:10
+
+enter second number:20
+
+enter third number:30
+
+enter fourth number:40
+
+The smaller number is: 10
+
+12)Write a python program to find sum of all odd numbers from 100 to 1 using for loop
+--------------------------------------------------------------------------------------
+Program:-
+=========
+sum=0
+
+for x in range(100,1,-1):
+ 
+if x%2!=0:
+    
+  sum=sum+x
+
+   print("The sum is:",sum)
+
+Sample input -output:-
+======================
+The sum is:2499
+
+
+WHILE LOOP:-
+===========
+1)write a python program to print numbers from 1to 10 using while loop
+-----------------------------------------------------------------------
+Program:-
+=========
+i=1
+
+while(i<=10):
+  
+  print(i)
+  
+  i=i+1
+
+Sample input-output:-
+=====================
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+2)Write a python program tom print numbers from 10 to 1 using while loop
+---------------------------------------------------------------------------
+Program:-
+=========
+i=10
+
+while(i>=1):
+    
+   print(i)
+  
+   i=i-1
+Sample input-outut:-
+=====================
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+3)Write a python program to accept a number and find sum of 'N' natural numbers using while loop
+---------------------------------------------------------------------------------------------------
+Program:-
+==========
+n=int(input("enter a number:"))
+
+sum=0
+
+i=1
+
+while(i<=n):
+  
+  print(i)
+   
+  sum=sum+i
+  
+  i=i+1
+
+print("The sum is:",sum)
+Sample input-output:-
+======================
+enter a number:10
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+The sum is: 55
+
+
+4)write a python program to accept a number and find the given number is palindrome or not
+---------------------------------------------------------------------------------------------
+Program:-
+=========
+n=int(input("enter a number:"))
+
+dup=n
+
+sum=0
+
+while(n>0):
+    
+    rem=n%10
+ 
+    sum=(sum*10)+rem
+
+    n=n//10
+
+if dup==sum:
+  
+  print("The given number is palindrome ")
+
+else:
+   
+print("The given number is not palindrome")
+Sample input-output:-
+====================
+enter a number:141
+
+The given number is palindrome
+5)Write a python program to accept a number and verify the given number is armstrong or not
+---------------------------------------------------------------------------------------------
+Program:-
+=========
+n=int(input("enter a number:"))
+
+dup=n
+
+sum=0
+
+while(n>0):
+ 
+   rem=n%10
+  
+   sum=sum+(rem*3)
+   
+   n=n//10
+
+if dup==sum:
+  
+  print("The given number is armstrong ")
+
+else:
+ 
+  print("The given number is not armstrong")
+Sample input-output:-
+========================
+enter a number:153
+
+The given number is not armstrong
+
+
 
 
 
