@@ -32,6 +32,7 @@ if num>=1 and num<=100:
 else:
  
    print("The given number is not within the range ")
+
     
 Sample input-output:-
 ======================
@@ -68,6 +69,7 @@ enter first  number:10
 enter second number:20
 
 The given number is smaller number
+
 4)Write a python program to accept three numbers and find biggest among three numbers
 -------------------------------------------------------------------------------------
 Program:-
@@ -141,6 +143,8 @@ enter a number:5
 The number is invalid
 
 
+FOR LOOP:-
+==========
 1)Write a python program to print numbers from 1 to 10 using for loop
 -----------------------------------------------------------------------
 Program:-
@@ -267,6 +271,7 @@ enter some list elements 1 2 3
 ['1', '2', '3']
 The sum of the list is: 6
 
+
 6)write a python program to accept a number and print multiplication of a given number
 ---------------------------------------------------------------------------------------
 Program:-
@@ -301,10 +306,9 @@ enter any number:6
 
 6 * 10 = 60
 
+
 7)Write a python program to accept a string and print every character with their index number also
 ---------------------------------------------------------------------------------------------------
-Program:-
-=========
 Program:-
 =========
 a=int(input("enter a string"))
@@ -383,6 +387,7 @@ enter some number:10 11 12
 Even numbers count is: 1
 
 odd numbers count is: 0
+
 10)Write a python program to accept two numbers to find sum if first number is smaller than second otherwise to perform its difference using if else
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Program:-
@@ -603,6 +608,7 @@ Sample input-output:-
 enter a number:141
 
 The given number is palindrome
+
 5)Write a python program to accept a number and verify the given number is armstrong or not
 ---------------------------------------------------------------------------------------------
 Program:-
@@ -636,6 +642,13 @@ The given number is not armstrong
 
 
 
+6)Write a python program to find those numbers are divisisble by 7 and multiple of 5 in between 1 to 100 using while loop
+-------------------------------------------------------------------------------------------------------------------------
+Program:-
+=========
+
+Sample input-output:-
+======================
 
 
 
