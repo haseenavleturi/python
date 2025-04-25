@@ -1,0 +1,98 @@
+Functions:-
+===========
+1)Write a python program to accept integer numbers and find smallest value among four numbers using functions
+---------------------------------------------------------------------------------------------------------------
+Program:-
+=========
+def findsmall():
+ 
+   a=int(input("Enter first number:"))
+ 
+   b=int(input("Enter second number:"))
+  
+   c=int(input("Enter third number:"))
+   
+   d=int(input("Enter fourth number:"))
+ 
+   if a<b and a<c and a<d:
+      
+       print("The smallest value is:",a)
+ 
+   elif b<c and b<d:
+  
+      print("The smallest value is:",b)
+  
+   elif c<d:
+  
+     print("The smallest value is:",c)
+ 
+   else:
+     
+     print("The smallest value is:",d)
+
+findsmall()
+
+Sample input-output:-
+=====================
+Enter first number:12
+
+Enter second number:11
+
+Enter third number:10
+
+Enter fourth number:13
+
+The smallest value is: 10
+
+2)write a python program to accept a number and find given number is even or odd number
+----------------------------------------------------------------------------------------
+Program:-
+==========
+def evenodd():
+
+    num=int(input("Enter any number:"))
+
+    if num%2==0:
+
+        print("The given number is even")
+
+    else:
+ 
+      print("The given number is odd")
+
+evenodd()
+
+Sample input-output:-
+======================
+Enter any number:20
+
+The given number is even
+
+3)Write a pyhton program to accept two numbers and find biggest among two numbers
+----------------------------------------------------------------------------------
+Program:-
+==========
+def bignumber():
+
+  a=int(input("Enter first number:"))
+
+  b=int(input("Enter second number:"))
+ 
+  if a>b and b>a:
+      
+     print("The biggest number is:",a)
+
+  else:
+ 
+     print("The biggest number is:",b)
+
+bignumber()
+
+sample input-output:-
+=====================
+Enter first number:20
+
+Enter second number:30
+
+The biggest number is: 30
+
