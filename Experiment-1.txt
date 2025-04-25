@@ -1,9 +1,9 @@
 1.Arithmetic operators:-
 -----------------------
 1.Write a python program to perform Arthmetic operators without input function
+----------------------------------------------------------------------------------
 program:-
 --------
-
 a=10
 
 b=20
@@ -39,8 +39,6 @@ Sample input-output:-
 
 100000000000000000000
 
-2)Comparison operators:-
--------------------------
 2.Write a python program to perform arthmetic operators using input function
 -----------------------------------------------------------------------------
 
@@ -84,8 +82,8 @@ enter second number:30
 
 867361737988403547205962240695953369140625
 
-
-
+2)Comparison operators:-
+-------------------------
 3.Write a python program to perform comparison operator without using input function
 ---------------------------------------------------------------------------------------
 
@@ -176,7 +174,7 @@ print("second value is:",b)
 
 
 
-Sample inout-output:-
+Sample input-output:-
 =====================
 enter first number:30
 
