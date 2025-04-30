@@ -1,0 +1,207 @@
+1)Write a python program to create a emptylist and store the element
+---------------------------------------------------------------------
+Program:-
+=========
+mylist=[]
+
+n=int(input("Enter any number:"))
+
+for x in range(n):
+
+    num=int(input("Enter a number:"))
+
+    mylist.append(num)
+
+print("My updated list is:",mylist)
+
+Sample input-output:-
+======================
+Enter any number:5
+
+Enter a number:10
+
+Enter a number:20
+
+Enter a number:30
+
+Enter a number:40
+
+Enter a number:50
+
+My updated list is: [10, 20, 30, 40, 50]
+
+2)Write a python program to accessing and remove the elements from a list
+-----------------------------------------------------------------------------
+Program:-
+=========
+l=[10,20,30,"haseena",(10+20j),True]
+
+print(l[3])
+
+print(l[-2])
+
+print(l[1:4])
+
+print(l)
+
+l.remove(30)
+
+print(l)
+
+Sample input-output:-
+=====================
+haseena
+
+(10+20j)
+
+[20, 30, 'haseena']
+
+[10, 20, 30, 'haseena', (10+20j), True]
+
+[10, 20, 'haseena', (10+20j), True]
+
+
+
+3)Write a python program to find min and max length of a list
+----------------------------------------------------------------
+Program:-
+==========
+l=[10,20,30,40,60,True,163]
+
+print(len(l))
+
+print(l)
+
+print(max(l))
+
+print(min(l))
+
+Sample input-output:-
+=====================
+7
+
+[10, 20, 30, 40, 60, True, 163]
+
+163
+
+True
+
+
+4)Write a python program to find sum of the elements in a list
+---------------------------------------------------------------
+Program:-
+==========
+mylist=[8,2,3,0,7]
+
+sum=0
+
+for i in mylist:
+
+    sum=sum+i
+
+print("The sum is:",sum)
+
+Sample input-output:-
+======================
+The sum is: 20
+
+5)Write a python progarm to acceot a string and converted into a list
+-----------------------------------------------------------------------
+Program:-
+==========
+s=input("Enter the string:")
+
+print(s.split())
+
+Sample input-output:-
+======================
+Enter the string:Haseena is a good girl
+
+['Haseena', 'is', 'a', 'good', 'girl']
+
+
+6)Write a python program to accept numbers and store them in list,then print the list without odd numbers in it
+----------------------------------------------------------------------------------------------------------------
+Program:-
+===========
+n=int(input("Enter the value of n:"))
+
+mylist=[]
+
+for i in range(n):
+ 
+   num=int(input("Enter any number:"))
+ 
+   mylist.append(num)
+
+print("Even numbers are:")
+
+print("[",end="]")
+
+for num in mylist:
+ 
+   if num%2==0:
+
+        print(num,end=",")
+
+print("]")
+
+Sample input-output:-
+=====================
+Enter the value of n:5
+
+Enter any number:10
+
+Enter any number:20
+
+Enter any number:305
+
+Enter any number:16
+
+Enter any number:163
+
+Even numbers are:
+[10,20,16,]
+
+
+7)Write a python program to remove specific element,reverse the list,copy the list into another
+------------------------------------------------------------------------------------------------
+Program:-
+==========
+list=[10,20,30,"haseena","true",(16+13j),False,1,True]
+
+print(list)
+
+x=list.copy()
+
+print(x)
+
+list.pop(3)
+
+print(list)
+
+del list[2]
+
+print(list)
+
+list.reverse()
+
+print(list)
+
+list.clear()
+
+print(list)
+Sample input-output:-
+=====================
+[10, 20, 30, 'haseena', 'true', (16+13j), False, 1, True]
+
+[10, 20, 30, 'haseena', 'true', (16+13j), False, 1, True]
+
+[10, 20, 30, 'true', (16+13j), False, 1, True]
+
+[10, 20, 'true', (16+13j), False, 1, True]
+
+[True, 1, False, (16+13j), 'true', 20, 10]
+
+[]
+
