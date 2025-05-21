@@ -1,0 +1,69 @@
+1)Write a python program to take parameter as a input and find square number
+-------------------------------------------------------------------------------
+Program:-
+==========
+def sqrt(num):
+ 
+   print("The square value is:",num*num)
+
+sqrt(4)
+
+sqrt(5)
+Sample input-output:-
+======================
+The square value is: 16
+
+The square value is: 25
+
+2)write apython program using functions to find even or odd numbers
+--------------------------------------------------------------------
+Program:-
+=========
+def check_even_odd(number):
+
+    if number%2==0:
+ 
+       return"even"
+ 
+   else:
+   
+     return "odd"
+
+num=int(input("Enter a number:"))
+
+result=check_even_odd(num)
+
+print("The result is:",result)
+
+Sample input-output:-
+======================
+Enter a number:10
+
+The number is: Even
+
+
+3)write a python program to find factorial value of agiven number using functions
+----------------------------------------------------------------------------------
+Program:-
+========
+def factorial(n):
+
+    if n==0:
+   
+     return 1
+ 
+   else:
+    
+    return n*factorial(n-1)
+
+num=int(input("Enter a number:"))
+
+result=factorial(num)
+
+print("Factorial of",num,"is",result)
+
+Sample input-output:-
+=====================
+Enter a number:5
+
+Factorial of 5 is 120
