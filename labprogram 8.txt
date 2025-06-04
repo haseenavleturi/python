@@ -1,0 +1,126 @@
+1)write a python to find random number between 1 and 10 using module
+---------------------------------------------------------------------
+Program:-
+==========
+import random
+
+random_number=random.randint(1,10)
+
+print("Random number:",random_number)
+
+Sample input-output:-
+=====================
+Random number: 7
+
+2)Write a python program to find date and current time using module
+--------------------------------------------------------------------
+Program:-
+==========
+import datetime
+
+current_datetime=datetime.datetime.now()
+
+print("current date and time:",current_datetime)
+
+Sample input-output:-
+======================
+urrent date and time: 2025-06-04 05:22:44.344428
+
+
+3)Write a python program to find the square number using module
+--------------------------------------------------------------
+Program:-
+==========
+import math
+
+number=25
+
+sqrt=math.sqrt(number)
+
+print("Square root:",sqrt)
+
+Sample input-output:-
+======================
+Square root: 5.0
+
+4)Write a python program to find the factorial value using module
+-------------------------------------------------------------------
+Program:-
+=========
+import math
+
+factorial=math.factorial(5)
+
+print("Factorial:",factorial)
+
+Sample input-output:-
+====================
+Factorial: 120
+
+5)Write a python program to create a file and write some context,read the file data
+------------------------------------------------------------------------------------
+Program:-
+=========
+file_path="example.txt"
+
+with open(file_path,"w") as file:
+ 
+   file.write("Hello World!")
+
+with open(file_path,"r") as file:
+
+    content=file.read()
+
+print("File content:",content)
+Sample input-output:-
+====================
+6)Write a python program to convert lowercase into uppercase using module
+--------------------------------------------------------------------------
+Program:-
+=========
+import string
+
+text="hello world!"
+
+uppercase_text=text.upper()
+
+print("uppercase text:",uppercase_text)
+
+Sample input-output:-
+====================
+uppercase text: HELLO WORLD!
+
+7)Write a python program to generate random number between 1 to 10 using secret module
+----------------------------------------------------------------------------------------
+Program:-
+=========
+import secrets
+
+random_numbers=secrets.randbelow(10)+1
+
+print("cryptogrphically secure Random number:",random_numbers)
+
+Sample input-output:-
+====================
+cryptogrphically secure Random number: 7
+
+8)write a pythopn program to implement platform module
+-------------------------------------------------------
+Program:-
+=========
+import platform
+
+system_name=platform.system()
+
+node_name=platform.node()
+
+processor_name=platform.processor()
+
+print("System name:",system_name)
+
+print("node name:",node_name)
+
+print("processor name:",processor_name)
+Sample input-output:-
+====================
+

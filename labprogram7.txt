@@ -1,0 +1,217 @@
+1)write a python program to find the fibonacci series of numbers using recursive function
+------------------------------------------------------------------------------------------
+Program:-
+=========
+def fibonacci(number):
+
+    if(number==0):
+
+        return 0
+
+    elif number==1:
+
+        return 1
+
+    else:
+ 
+       return fibonacci(number-2)+fibonacci(number-1)
+
+number=int(input("Please enter the fibonacci number range="))
+
+sum=0
+for num in range(number):
+
+    print(fibonacci(num),end='')
+
+    sum=sum+fibonacci(num)
+
+print("\n The sum of fibonacci series numbers=%d",sum);
+
+Sample input-output:-
+=====================
+Please enter the fibonacci number range=8
+
+011235813
+
+ The sum of fibonacci series numbers=33
+
+2)write a python program how to find a factorial value of given number using recursive function
+------------------------------------------------------------------------------------------------
+Program:-
+=========
+def factorial(n):
+ 
+   if n==0:
+
+        return 0
+  
+  if n==1:
+  
+      return 1
+  
+  else:
+     
+   return n*factorial(n-1)
+
+n=int(input("Enter any number:"))
+
+print("Factorial value of ",n,"is:",factorial(n))
+
+Sample input-output:-
+=======================
+nter any number:5
+
+Factorial value of  5 is: 120
+
+
+3)write a python program to the given string is palindrome or not
+------------------------------------------------------------------
+Program:-
+=========
+def pal(s):
+ 
+  s=s.lower()
+ 
+  if len(s)<=1:
+ 
+   return True
+ 
+  elif s[0]!=s[-1]:
+    
+   return False
+  
+  else:
+    
+   return pal(s[1:-1])
+
+myinput=input("Enter a string:")
+
+if pal(myinput):
+
+    print(f"{myinput} is a palindrome")
+
+else:
+
+    print(f"{myinput} is not a palindrome")
+Sample input-output:-
+======================
+Enter a string:madam
+
+madam is a palindrome
+
+4)Write a python program to gcd of two numbers using recursive function
+------------------------------------------------------------------------
+Program:-
+===========
+def gcd(a,b):
+
+    if b==0:
+
+        return a
+ 
+   else:
+ 
+      return gcd(b,a%b) 
+
+x=int(input("Enter the first integer:"))
+
+y=int(input("Enter the second integer:"))
+
+if x.isdigit()and y.isdigit():
+
+  a=int(x)
+  
+  b=int(y)
+  
+  result=gcd(a,b)
+
+  print(f"The gcd of{a} and {b} is:",result)
+
+else:
+  
+  print("Please enter valid integers")
+Sample input-output:-
+======================
+Enter the first integer:36
+Enter the second integer:18
+THe gcd of 26 and 18 is:18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def gcd(a,b):
+if b==0:
+    return a
+else:
+    return gcd(b,a%b)
+x=in(input("Enter the first integer:"))
+y=int(input("Enter the second integer:"))
+if x.isdigit() and y.isdigit():
+    a=int(x)
+    b=int(y)
+    resulr=gcd(a,b)
+    print(f "The  gcd of{a} and {b} is:",result)
+else:
+    print("Please enter vlid integer")
+
+class Car:
+ 
+   def __init__(self,brand,speed):
+  
+    self.brand=brand
+    
+  self.speed=speed
+   
+ def display(self):
+
+      print(f"Brand:{self.brand}speed:{self.speed}km/h")
+ 
+   def create_car():
+
+        car1=Car("Toyota",180)
+
+        return car1
+
+my_car=Car.create_car()
+
+my_car.display()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class car:
+    def __init__(self,brand,speed):
+     self.brand=brand
+     self.brand=speed
+    def display(self):
+      print(f"Brand:{self.brand},speed:{self.speed}km/h")
+    def create_car():
+        car1=car("Toyota",180)
+        return car1
+my_car=car.create_car()
+my_car.display()
+
