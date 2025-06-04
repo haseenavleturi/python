@@ -1,0 +1,122 @@
+1)Write a python program to merge the two dictionaries
+-------------------------------------------------------
+Program:-
+==========
+d1={10:"python",20:"java"}
+
+d2={30:"c",40:"ruby"}
+
+d3=d1|d2
+
+print(d3)
+Sample input-output:-
+=====================
+{10: 'python', 20: 'java', 30: 'c', 40: 'ruby'}
+2)Write a python program to p[erform iteration using dictionary
+----------------------------------------------------------------
+Program:-
+==========
+d={"apple":5,"banana":10,"orange":8}
+
+for k in d:
+
+    print(k)
+
+for v in d.values():
+
+    print(v)
+
+for k,v in d.items():
+
+    print(k,"----->",k)
+
+Sample input-output:-
+======================
+apple
+
+banana
+
+orange
+
+5
+
+10
+
+8
+
+apple -----> apple
+
+banana -----> banana
+
+orange -----> orange
+
+
+3)Write a python program to convert set into dictionary type
+--------------------------------------------------------------
+Program:-
+=========
+fruits={"apple","banana","orange"}
+
+fruits_dict={fruit:index for index, fruit in enumerate(fruits)}
+
+print(fruits_dict)
+
+Sample input-output:-
+=====================
+{'orange': 0, 'apple': 1, 'banana': 2}
+
+4)Write a python program to delete multipules elements in a dictionary
+-----------------------------------------------------------------------
+Program:-
+=========
+d={'apple':5,'banana':10,'orange':8,'mango':15}
+
+kd=['apple','banana']
+
+for k in kd:
+
+    if k in d:
+
+        del d[k]
+ 
+       print(d)
+Sample input-output:-
+======================
+{'banana': 10, 'orange': 8, 'mango': 15}
+
+{'orange': 8, 'mango': 15}
+
+5)Write a python program to perform arithmetic operations on the values of dictionary
+----------------------------------------------------------------------------------------
+Program:-
+=========
+d1={'sub1':80,'sub2':90,'sub3':70,'sub4':80}
+
+print(d1)
+
+s=sum(d1.values())
+
+print(s)
+
+mx=max(d1.values())
+
+print(mx)
+
+mn=min(d1.values())
+
+print(mn)
+
+cnt=len(d1.values())
+
+print(cnt)
+Sample input-output:-
+=====================
+{'sub1': 80, 'sub2': 90, 'sub3': 70, 'sub4': 80}
+
+320
+
+90
+
+70
+
+4
