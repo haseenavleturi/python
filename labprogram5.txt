@@ -1,0 +1,106 @@
+1)Write a python function that creates and returns an object
+-------------------------------------------------------------
+Program:-
+=========
+class Car:
+
+  def __init__(self,brand,speed):
+
+    self.brand=brand
+
+    self.speed=speed
+
+  def display(self):
+
+      print(f"Brand:{self.brand}speed:{self.speed}km/h")
+
+  def create_car():
+
+      car1=Car("Toyota",180)
+
+      return car1
+
+my_car=Car.create_car()
+
+my_car.display()
+
+Sample input output:-
+=====================
+Brand:Toyotaspeed:180km/h
+
+2)Write a function that takes a student object as an argument and prints the students information
+---------------------------------------------------------------------------------------------------
+Program:-
+=========
+class Student:
+
+  def __init__(self,name,marks):
+
+    self.name=name
+
+    self.marks=marks
+
+  def print_student_info(self):
+
+      print(f"Name:{self.name}marks:{self.marks}")
+
+s1=Student("mouni",95)
+
+s1.print_student_info()
+
+Sample input output:-
+======================
+Name:mounimarks:95
+
+
+3)write  a function that returns a circle object created with a given radius
+-----------------------------------------------------------------------------
+Program:-
+=========
+class Circle:
+ 
+   def __init__(self,radius):
+  
+      self.radius=radius
+  
+  def area(self):
+      
+  return 3.14*self.radius*self.radius
+
+    def get_circle(r):
+    
+    return Circle(r)
+
+c=Circle.get_circle(5)
+
+print("Area of circle:",c.area())
+
+Sample input output:-
+======================
+Area of circle: 78.5
+
+4)Write a function that returns a list of 3 book objects.
+---------------------------------------------------------
+Program:-
+==========
+class book:
+
+    def __init__(self,title):
+
+      self.title=title
+ 
+   def create_book_list():
+
+      return[book("python 101"),book("AI Basics"),book("Data science")]
+
+books=book.create_book_list()
+for b in books:
+
+  print("book title:",b.title)
+Sample input-output:-
+======================
+book title: python 101
+
+book title: AI Basics
+
+book title: Data science
