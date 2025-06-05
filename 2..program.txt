@@ -1,0 +1,24 @@
+** How to find a factorial value of given number using recursive function ? **
+
+def factorial(n):
+
+    if n == 0:
+
+        return 0
+
+    if n == 1:
+
+        return 1
+
+    else:
+
+        return n * factorial(n-1)
+
+    n = int(input("Enter any number : "))
+
+    print('factorial value of ',n,'is:',factorial(n))
+
+OUTPUT:
+
+Enter any number : 5
+factorial value of 5 is : 120
