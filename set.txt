@@ -1,0 +1,17 @@
+1)Write a python program to take a list and print without duplicate values
+----------------------------------------------------------------------------
+Program:-
+=========
+l=[10,20,30,40,10,20]
+
+s=set(l)
+
+print(type(s))
+
+print(s)
+Sample input-output:-
+=====================
+<class 'set'>
+
+{40, 10, 20, 30}
+

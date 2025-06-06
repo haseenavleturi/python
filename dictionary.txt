@@ -1,0 +1,49 @@
+1)Write a python program to accept two dictionaries and perform merge operation
+---------------------------------------------------------------------------------
+Program:-
+=========
+d1={100:"python",200:"java"}
+
+d2={300:"ds"}
+
+d=d1|d2
+
+print(d)
+Sample input-output:-
+====================
+{100: 'python', 200: 'java', 300: 'ds'}
+
+
+2)Write a python program to create a dictionary and find sum,max,min values and length of dictionary
+-----------------------------------------------------------------------------------------------------
+Program:-
+=========
+d={100:"python",200:"java",300:"aws"}
+
+s=sum(d.keys())
+
+print(s)
+
+max=max(d.keys())
+
+print(max)
+
+min=min(d.keys())
+
+print(min)
+
+print(len(d))
+
+Sample input-output:-
+======================
+600
+
+300
+
+100
+
+3
+
+3)Write a python program using dictionary datatype to store student subject marks and print the dictionary
+------------------------------------------------------------------------------------------------------------
+
