@@ -46,4 +46,20 @@ Sample input-output:-
 
 3)Write a python program using dictionary datatype to store student subject marks and print the dictionary
 ------------------------------------------------------------------------------------------------------------
+Program:-
+=========
+student_marks = {
+    'Math': 85,
+    'English': 90,
+    'Science': 78,
+    'History': 88,
+    'Art': 92
+}
+print(student_marks)
+Sample input-output:-
+====================
+{'Math': 85, 'English': 90, 'Science': 78, 'History': 88, 'Art': 92}
+
+
+
 

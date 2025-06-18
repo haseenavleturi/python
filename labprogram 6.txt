@@ -1,0 +1,103 @@
+1)Write a python program to print forward arrow directions
+-----------------------------------------------------------
+Program:-
+==========
+import turtle
+t = turtle.Turtle()
+t.forward(100)
+turtle.mainloop()
+Sample input-output:-
+=====================
+
+
+2)Write a python program using turtle graphics to print circle
+----------------------------------------------------------------
+Program:-
+========
+import turtle  
+t = turtle.Turtle()  
+t.circle(50)  
+turtle.mainloop()  
+
+Sample input-output:-
+======================
+
+3)Write a program to print background colour using turtle grapics
+------------------------------------------------------------------------
+Program:-
+========
+import turtle  
+t = turtle.Turtle()  
+turtle.bgcolor("blue")  
+turtle.mainloop()  
+Sample input-output:-
+======================
+
+4)Write a python program to print square shape using turtle graphics
+----------------------------------------------------------------------
+Program:-
+===========
+import turtle             
+my_pen = turtle.Turtle()      
+for i in range(4):
+   my_pen.forward(50)           
+   my_pen.right(90)               
+turtle.done()
+
+Sample input-output:-
+======================
+
+ 
+5)Write a python program to print a star symbol using turtle graphics
+-----------------------------------------------------------------------
+Program:-
+=========
+import turtle             
+my_pen = turtle.Turtle()      
+for i in range(50):
+   my_pen.forward(50)           
+   my_pen.right(144)               
+turtle.done()
+
+Sample input-output:-
+=====================
+
+6)Write a python program to print hexagon shape using turtle graphics
+----------------------------------------------------------------------
+Program:-
+=========
+import turtle             
+polygon = turtle.Turtle()
+my_num_sides = 6
+my_side_length = 70
+my_angle = 360.0 / my_num_sides
+for i in range(my_num_sides):
+   polygon.forward(my_side_length)           
+   polygon.right(my_angle) 
+turtle.done()
+
+Sample input-output:-
+=====================
+7)Write a python program to print another pattern using turtle 
+---------------------------------------------------------------
+Program:-
+==========
+import turtle             
+colors = [ "red","purple","blue","green","orange","yellow"]
+my_pen = turtle.Pen()
+turtle.bgcolor("black")
+for x in range(360):
+   my_pen.pencolor(colors[x % 6])
+   my_pen.width(x/100 + 1)
+   my_pen.forward(x)
+   my_pen.left(59)
+
+
+Sample input-output:-
+=====================
+
+
+
+
+
+
